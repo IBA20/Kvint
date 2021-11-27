@@ -53,7 +53,7 @@ def stop(update, context):
 
 
 if __name__ == '__main__':
-    TOKEN = '1797783540:AAFPXzqG6tbfgAWPPF6tQ0j05X7UJ10iAqE'
+    TOKEN = ''
     updater = Updater(token=TOKEN, use_context=True)
     dispatcher = updater.dispatcher
     conv_handler = ConversationHandler(
